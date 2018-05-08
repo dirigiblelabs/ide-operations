@@ -38,7 +38,7 @@
 	<div menu menu-data-url="../../js/ide-operations/services/menu-operations.js"></div>
 	
 	<div class="shell">
-		<div class="sidebar list-group" sidebar active="operations"></div>
+		<div class="sidebar list-group" sidebar active="Operations"></div>
 		<div id="operations" class="plane" views-layout views-layout-model="c.layoutModel"></div>
 	</div>
 	<div class="statusbar" status-bar></div>
@@ -68,7 +68,7 @@
 		.controller('Controller', ['Layouts', function (Layouts) {
 			
 			this.layoutModel = {
-				views: ['extensionPoints', 'extensions', 'jobs', 'logs', 'access', 'roles'],
+				views: ['extensionPoints', 'extensions', 'jobs', 'access', 'roles', 'console', 'terminal', 'logs'],
 				events: {
 					'fileselected': function(msg){
 						Layouts.manager.openEditor(msg.data.path, msg.data.label);
