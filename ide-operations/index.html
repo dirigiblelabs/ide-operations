@@ -68,7 +68,7 @@
 		.controller('Controller', ['Layouts', function (Layouts) {
 			
 			this.layoutModel = {
-				views: ['extensionPoints', 'extensions', 'jobs', 'logs'],
+				views: ['extensionPoints', 'extensions', 'jobs', 'logs', 'access', 'roles'],
 				events: {
 					'fileselected': function(msg){
 						Layouts.manager.openEditor(msg.data.path, msg.data.label);
