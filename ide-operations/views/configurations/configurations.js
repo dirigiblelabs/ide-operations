@@ -9,7 +9,7 @@
  * SPDX-FileCopyrightText: 2010-2020 SAP SE or an SAP affiliate company and Eclipse Dirigible contributors
  * SPDX-License-Identifier: EPL-2.0
  */
-exports.getView = function() {
+exports.getView = function () {
 	return {
 		"id": "configurations",
 		"name": "Configurations",

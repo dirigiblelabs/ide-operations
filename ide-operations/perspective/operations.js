@@ -8,7 +8,7 @@
  * Contributors:
  *   SAP - initial API and implementation
  */
-exports.getPerspective = function() {
+exports.getPerspective = function () {
 	return {
 		"name": "Operations",
 		"link": "../ide-operations/index.html",
