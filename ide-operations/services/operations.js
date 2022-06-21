@@ -8,12 +8,17 @@
  * Contributors:
  *   SAP - initial API and implementation
  */
-exports.getPerspective = function () {
-	return {
-		name: "Operations",
-		link: "../ide-operations/index.html",
-		order: "810",
-		image: "area-chart", // deprecated
-		icon: "../ide-operations/images/operations.svg",
-	};
+
+const perspectiveData = {
+	id: "operations",
+	name: "Operations",
+	link: "../ide-operations/index.html",
+	order: "810",
+	image: "area-chart", // deprecated
+	icon: "../ide-operations/images/operations.svg",
 };
+if (typeof exports !== 'undefined') {
+	exports.getPerspective = function () {
+		return perspectiveData;
+	}
+}
