@@ -14,7 +14,7 @@
 const viewData = {
 	id: "configurations",
 	factory: "frame",
-	region: "bottom",
+	region: "center",
 	label: "Configurations",
 	link: "../ide-operations/views/configurations/index.html"
 };
