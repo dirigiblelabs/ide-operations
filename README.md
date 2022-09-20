@@ -1,7 +1,7 @@
 # Operations Perspective and Plugins for Eclipse Dirigible WebIDE
 
 [![Eclipse License](http://img.shields.io/badge/license-Eclipse-brightgreen.svg)](LICENSE)
-[![GitHub contributors](https://img.shields.io/github/contributors/dirigiblelabs/ide-extensions.svg)](https://github.com/dirigiblelabs/ide-extensions/graphs/contributors)
+[![GitHub contributors](https://img.shields.io/github/contributors/dirigiblelabs/ide-operations.svg)](https://github.com/dirigiblelabs/ide-operations/graphs/contributors)
 
 # Overview
 
